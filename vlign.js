@@ -1,5 +1,3 @@
-$(document).ready(function(){
-
   var verticalign = $(".vlign").toArray();
     for (var i = 0; i < verticalign.length; i++) {
 
@@ -15,4 +13,3 @@ $(document).ready(function(){
 		$(verticalign[i]).css("margin-left","-"+vmarleft+"px");
     }
 	
-});
